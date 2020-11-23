@@ -1,0 +1,21 @@
+{
+  "name": "@primedao/tokensale",
+  "version": "1.0.0",
+  "author": "Olivier Sarrouy <osarrouy@protonmail.com>",
+  "license": "GPLv3",
+  "homepage": "https://github.com/osarrouy/mesa-script",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osarrouy/mesa-script.git"
+  },
+  "scripts": {
+    "params:extract": "node scripts/params.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bignumber.js": "^9.0.1",
+    "chalk": "^4.1.0",
+    "columnify": "^1.5.4",
+    "web3": "^1.3.0"
+  }
+}
